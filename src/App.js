@@ -1,10 +1,10 @@
 import Rect from "react";
-import "./App.css";
-import Row from "./Row";
-import requestes from "./request";
-import requests from "./request";
-import Banner from "./Banner";
-import Nav from "./Nav";
+import "./Styles/App.css";
+import Row from "./Components/Row";
+import requestes from "./middlewares/request";
+import requests from "./middlewares/request";
+import Banner from "./Components/Banner";
+import Nav from "./Components/Nav";
 function App() {
   return (
     <div className="App">
@@ -27,6 +27,7 @@ function App() {
         fetchUrl={requests.fetchRomanceMovies}
       ></Row>
       <Row title={"Documentaries"} fetchUrl={requests.fetchDocumentaries}></Row>
+      <div className="App">..</div>
     </div>
   );
 }
