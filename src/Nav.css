@@ -1,0 +1,35 @@
+.nav {
+  top: 0;
+
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+  z-index: 1;
+  height: 21px;
+
+  /* //animation */
+  transition-timing-function: ease-in;
+  transition: all 0.8s;
+}
+.nav_handleshow {
+  height: 21px;
+  background-color: black;
+}
+.nav_logo {
+  width: 90px;
+  position: absolute;
+  left: 5;
+  float: left;
+  object-fit: contain;
+}
+.nav_avatar {
+  position: fixed;
+  right: 23px;
+  color: white;
+
+  float: left;
+  object-fit: contain;
+  /* to maitin the aspect ratio/ */
+}
