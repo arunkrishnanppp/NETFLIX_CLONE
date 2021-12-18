@@ -33,3 +33,6 @@
   object-fit: contain;
   /* to maitin the aspect ratio/ */
 }
+.nav_avatar {
+  color: red;
+}

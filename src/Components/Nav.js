@@ -23,7 +23,7 @@ const Nav = () => {
         alt="netflixlogo"
       ></img>
 
-      <i class="fas fa-user-alt  nav_avatar"></i>
+      <i class="fas fa-user-alt  nav_avatar"> Arun</i>
     </div>
   );
 };
